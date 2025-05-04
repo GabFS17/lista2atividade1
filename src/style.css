@@ -1,0 +1,42 @@
+body.branco {
+    background-color: white;
+}
+body.roxo {
+    background-color: rgb(153, 0, 255);
+}
+body.azul {
+    background-color: rgb(47, 0, 255);
+}
+body.ciano {
+    background-color: rgb(0, 204, 255);
+}
+body.verde {
+    background-color: rgb(72, 255, 0);
+}
+body.amarelo {
+    background-color: rgb(255, 251, 0);
+}
+body.laranja {
+    background-color: rgb(255, 136, 0);
+}
+body.vermelho {
+    background-color: rgb(255, 0, 0);
+}
+body.preto {
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botao {
+    border: none;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(255, 0, 242);
+    color: white;
+}
